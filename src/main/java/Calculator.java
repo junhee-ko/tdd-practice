@@ -19,4 +19,15 @@ public class Calculator {
     public void drop() {
         values.pop();
     }
+
+    public void execute(String op) {
+        Operation operation = null;
+        if ("+".equals(op)) {
+            operation = new AddOperation();
+        } else if ("-".equals(op)) {
+            operation = new SubtractOperation();
+        }
+
+        operation.apply(values);
+    }
 }

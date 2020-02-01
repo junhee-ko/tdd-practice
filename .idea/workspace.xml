@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96365429-2244-48d2-b49e-9ce0d17a4f39" name="Default Changelist" comment="ADD : OperandStack">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/OperandStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorWithThreeValuesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperandStackTest.java" afterDir="false" />
+    <list default="true" id="96365429-2244-48d2-b49e-9ce0d17a4f39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SubtractOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/CalculatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,43 +26,14 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OperandStackTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="504">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/OperandStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,15 +42,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="522">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +57,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -104,15 +71,20 @@
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorWithThreeValuesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/OperandStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/OperandStackTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Operation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BinaryOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SubtractOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AddOperation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,7 +143,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580392005332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580547539062" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -263,7 +235,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580387452938</updated>
-      <workItem from="1580387456259" duration="4397000" />
+      <workItem from="1580387456259" duration="4525000" />
+      <workItem from="1580545750168" duration="1701000" />
     </task>
     <task id="LOCAL-00001" summary="ADD : OperandStack">
       <created>1580392003395</created>
@@ -272,79 +245,87 @@
       <option name="project" value="LOCAL" />
       <updated>1580392003395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD : OperandStack">
+      <created>1580392044300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580392044300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 31m 11s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 40m 28s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 31m 47s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 41m 25s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest_testReplacingTopWithEmptyStack - 2020.01.30 at 22h 33m 00s.xml">
-      <configuration name="OperandStackTest.testReplacingTopWithEmptyStack" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 46m 50s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest_testReplacingTopWithEmptyStack - 2020.01.30 at 22h 33m 36s.xml">
-      <configuration name="OperandStackTest.testReplacingTopWithEmptyStack" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 47m 39s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 36m 56s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 52m 16s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 37m 17s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 52m 49s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 38m 28s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 55m 11s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 38m 55s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 55m 37s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OperandStackTest - 2020.01.30 at 22h 39m 59s.xml">
-      <configuration name="OperandStackTest" configurationId="JUnit" />
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 56m 08s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.01.30 at 22h 43m 03s.xml">
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 57m 13s.xml">
       <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4397000" />
+    <option name="totallyTimeSpent" value="6226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1517572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" weight="0.32908705" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32908705" />
-      <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32908705" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32908705" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40021232" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32127193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32908705" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32908705" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32908705" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,18 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OperandStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -404,28 +373,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OperandStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OperandStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SubtractOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BinaryOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="522">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
