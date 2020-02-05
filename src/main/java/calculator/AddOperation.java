@@ -1,9 +1,11 @@
+package calculator;
+
 import java.math.BigDecimal;
 
-public class SubtractOperation extends BinaryOperation{
+public class AddOperation extends BinaryOperation {
 
     @Override
     protected BigDecimal calculate(BigDecimal value01, BigDecimal value02) {
-        return value02.subtract(value01);
+        return value01.add(value02);
     }
 }

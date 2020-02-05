@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.2.Final/604e1101cb261c61200bfd655dfc1aa5aeca36d6/hibernate-jpa-2.1-api-1.0.2.Final-sources.jar!/javax/persistence/EntityManager.java" description="public &lt;T&gt; T find(Class&lt;T&gt; entityClass, Object pri..." line="124" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96365429-2244-48d2-b49e-9ce0d17a4f39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BinaryOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SubtractOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -28,25 +24,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="342">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SubtractOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,14 +90,15 @@
         <option value="$PROJECT_DIR$/src/main/java/BinaryOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/SubtractOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddOperation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OperationsTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -143,9 +158,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580547539062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580615985912" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -168,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in me.jko.tdd-practice.test">
+  <component name="RunManager" selected="JUnit.calculator in me.jko.tdd-practice.test">
     <configuration name="All in me.jko.tdd-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="me.jko.tdd-practice.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -177,19 +193,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorWithThreeValuesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="me.jko.tdd-practice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorWithThreeValuesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OperandStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="me.jko.tdd-practice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OperandStackTest" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.OperandStackTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,8 +204,8 @@
     </configuration>
     <configuration name="OperandStackTest.testNewOperandStackPeekRetunsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="me.jko.tdd-practice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OperandStackTest" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.OperandStackTest" />
       <option name="METHOD_NAME" value="testNewOperandStackPeekRetunsZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -207,21 +214,35 @@
     </configuration>
     <configuration name="OperandStackTest.testReplacingTopWithEmptyStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="me.jko.tdd-practice.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OperandStackTest" />
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.OperandStackTest" />
       <option name="METHOD_NAME" value="testReplacingTopWithEmptyStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="calculator in me.jko.tdd-practice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me.jko.tdd-practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.calculator in me.jko.tdd-practice.test" />
         <item itemvalue="JUnit.All in me.jko.tdd-practice.test" />
         <item itemvalue="JUnit.OperandStackTest" />
         <item itemvalue="JUnit.OperandStackTest.testReplacingTopWithEmptyStack" />
         <item itemvalue="JUnit.OperandStackTest.testNewOperandStackPeekRetunsZero" />
-        <item itemvalue="JUnit.CalculatorWithThreeValuesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +257,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580387452938</updated>
       <workItem from="1580387456259" duration="4525000" />
-      <workItem from="1580545750168" duration="1701000" />
+      <workItem from="1580545750168" duration="5355000" />
+      <workItem from="1580688241952" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="ADD : OperandStack">
       <created>1580392003395</created>
@@ -256,12 +278,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 40m 28s.xml">
-      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 41m 25s.xml">
-      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 46m 50s.xml">
       <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
@@ -286,15 +302,21 @@
     <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 57m 13s.xml">
       <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 58m 28s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_me_jko_tdd-practice_test - 2020.02.01 at 17h 59m 02s.xml">
+      <configuration name="All in me.jko.tdd-practice.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6226000" />
+    <option name="totallyTimeSpent" value="11731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1027" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1517572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17358893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -309,13 +331,13 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32908705" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32908705" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31347963" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32908705" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32894737" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32810867" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,24 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SubtractOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -429,23 +433,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SubtractOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OperationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
